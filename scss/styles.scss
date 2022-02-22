@@ -1,0 +1,63 @@
+
+/*Variables for the colors*/ 
+@import "./varibles";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+
+
+.main-body-container {
+  background-color:$backgroundColor ;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  
+  .content-container {
+  position: fixed;
+   display: grid;
+  place-items: center;
+  border-radius: 22px;
+  max-width: 86%;
+  height: 450px;
+  position: relative;
+  background: $bodyContainer;
+ 
+
+img{
+ border-radius: 8px; 
+ max-width: 90%;
+ 
+}
+
+.text-container {
+  margin: 8px 0 100px 0;
+
+}
+
+.header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $qrColor;
+
+
+}
+
+
+.paragraph {
+ 
+  color: $backgroundColor;
+  font-weight: 400;
+  font-size: 1rem;
+  color: $textColor;
+
+}
+}
+
+
+}

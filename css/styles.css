@@ -1,0 +1,43 @@
+/*Variables for the colors*/
+/*Colors*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.main-body-container {
+  background-color: #d6e2f0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.main-body-container .content-container {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  border-radius: 22px;
+  max-width: 86%;
+  height: 450px;
+  position: relative;
+  background: white;
+}
+.main-body-container .content-container img {
+  border-radius: 8px;
+  max-width: 90%;
+}
+.main-body-container .content-container .text-container {
+  margin: 8px 0 100px 0;
+}
+.main-body-container .content-container .header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1f3251;
+}
+.main-body-container .content-container .paragraph {
+  color: #d6e2f0;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #7b879d;
+}/*# sourceMappingURL=styles.css.map */
